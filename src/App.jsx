@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProductDetails from "./components/ProductDetails";
 import LandingPage from "./components/LandingPage";
+import Counter from "./components/Counter/Counter";
 
 function App() {
   
@@ -27,6 +28,7 @@ function App() {
         <Route path="/shop" element={<Shop/>} />
         <Route path="/product/:id" element={<ProductDetails/>} />
         <Route path="/lab1" element={<Lab1/>} />
+        <Route path="counter" element={<Counter/>} />
       </Routes>
       </Router>
 

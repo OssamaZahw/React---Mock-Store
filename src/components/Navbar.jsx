@@ -21,6 +21,9 @@ const Navbaar = () => {
       <Link to="/lab1">
         <li className="list-item text-dark">Lab 1</li>
       </Link>
+      <Link to="/counter">
+        <li className="list-item text-dark">Counter</li>
+      </Link>
     </ul>
   </nav>
   );
